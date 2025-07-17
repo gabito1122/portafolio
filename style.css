@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f4f8;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+header {
+  background-color: #0077ff;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  text-align: left;
+}
+
+.foto-perfil {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+.texto h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.texto p {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+}
+
+section {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #0077ff;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #0077ff;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+  text-align: center;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+ul li {
+  background: white;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+#contacto {
+  text-align: center;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.redes a {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #0077ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.redes a:hover {
+  background-color: #005fcc;
+}
+
+footer {
+  padding: 1rem;
+  background-color: #e0e7ef;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .foto-perfil {
+    width: 80px;
+    height: 80px;
+  }
+
+  .texto h1 {
+    font-size: 1.5rem;
+  }
+
+  .texto p {
+    font-size: 0.9rem;
+  }
+}
